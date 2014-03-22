@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/demo.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <section>
+
+            <h1>This is <strong>Delay</strong>.js</h1>
+            <h3>A little library for slowing down your interface.</h3>
+
+        </section>
+
+        <section>
+
+            <h2>Why?</h1>
+            <p>Delay is intended for background tasks that the user won't see immediately. For instance, you could stop showing a record immediately, but not delete it from the database until the user has had a chance to undo their action.</p> 
+
+        </section>
+
+        <section>
+            <h2>An Example</h2>
+
+            <button id="action-button" class="delay-button" data-delay-success="Success! Undo?" data-delay-default="Do something else!" data-delay-time="3000">Do Something!</button>
+
+            <div id="report"></div>
+
+        </section>
+
+        <section>
+
+            <h2>Delay Your Own Actions</h2>
+            <ul>
+                <li>Include <code>delay.js</code></li>
+                <li>Add the <code>delay-button</code> class to your button</li>
+                <li>Customize with the <code>data-delay-time</code>, <code>data-delay-success</code> and <code>data-delay-default</code> attributes</li>
+                <li>Listen for the <code>delay-started</code>, <code>delay-confirmed</code>, and <code>delay-undone</code> events</li> 
+            </ul>
+
+        </section>
+
+        <section>
+            <a class="btn" href="http://github.com/jacksondc/delay.js">Documentation on GitHub</a>
+        </section>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/delay.js"></script>
+        <script src="js/demo.js"></script>
+    </body>
+</html>
