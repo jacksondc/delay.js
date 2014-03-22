@@ -1,11 +1,13 @@
 #Delay.js
 A little library for slowing down your interface.
 
-##Why?
-Delay is intended for background tasks that the user won't see immediately. For instance, you could stop showing a record immediately, but not delete it from the database until the user has had a chance to undo their action.
+##What it Does
+Delay gives users some time to undo their actions before they take effect. It's intended for background tasks where the user won't see the result immediately anyways. For instance, you could stop showing a record immediately, but not delete it from the database until the user has had a chance to undo.
+
+[Demo](jacksondc.github.io/delay.js)
 
 ##Usage
-- Include the `delay.js` in your html
+- Include the `delay.js` file
 - Add the `delay-button` class to your button
 - Listen for the `delay-confirmed` event instead of the `click` event
 
