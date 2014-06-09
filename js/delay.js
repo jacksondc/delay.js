@@ -1,7 +1,3 @@
-/*==============
-=  VANILLA JS  =
-==============*/
-
 window.addEventListener('load', function() {
 	var timer;
 
