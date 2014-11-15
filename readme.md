@@ -13,13 +13,13 @@ Here's a [demo](http://jacksondc.github.io/delay.js).
 
 ##Customization
 ###Time
-Set the amount of time to wait before confirmation (in milliseconds) with the `data-delay-time` property. Defaults to `5000`.
+Set the amount of time to wait before confirmation (in milliseconds) with the `data-delay-time` attribute. Defaults to `5000`.
 
 ###Success
-Set the button's success text, which should prompt for an undo. Defaults to "Undo".
+Set the button's success text, which prompts a user for an undo, with the `data-delay-success` attribute. Defaults to "Undo".
 
 ###Default
-Set the button's default text, for when the user's action is over. Defaults to whatever it said when the page loaded.
+Set the button's default text, for when the user's action is over, with the `data-delay-default` attribute. Defaults to whatever it said when the page loaded.
 
 ##Hooks
 ###Delay-started event
