@@ -26,7 +26,7 @@ Set the button's default text, for when the user's action is over, with the `dat
 Fires when the user takes an action.
 
 ###Delay-confirmed event
-Fires when the action confirms, after a set interval (see the time section.)
+Fires when the action confirms, after a [set interval](#time).
 
 ###Delay-undone event
 Fires when the user undoes an action.
