@@ -2,7 +2,7 @@
 A little library for slowing down your interface.
 
 ##What it Does
-Delay gives users some time to undo their actions before they take effect. It's intended for background tasks where the user won't see the result immediately anyways. For instance, you could stop showing a record immediately, but not delete it from the database until the user has had a chance to undo.
+Delay gives users some time to [undo their actions](http://sachagreif.com/undo/) before they take effect. It's useful for background tasks where the user won't see the result immediately anyway. For instance, you could stop showing a record immediately, but not delete it from the database until the user has had a few seconds to change their mind.
 
 Here's a [demo](http://jacksondc.github.io/delay.js).
 
